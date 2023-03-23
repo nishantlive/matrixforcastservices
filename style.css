@@ -1,0 +1,10 @@
+.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translate(0, 50px);
+  }
